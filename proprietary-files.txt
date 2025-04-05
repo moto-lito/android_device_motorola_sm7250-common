@@ -235,6 +235,15 @@ odm/lib64/vendor.dolby_sp.hardware.dmssp@2.0-impl.so|b51e6a885a738023ce6ec97b702
 odm/lib64/vendor.dolby_sp.hardware.dmssp@2.0.so|2173d68717cbcdaab98e1cf15a0d410ea00d0271
 vendor/lib64/libcodec2_vndk.so:odm/lib64/libcodec2_vndk_sp.so;FIX_SONAME|156d0dc125c22b48308143e6566f747b5a1270bc|156d0dc125c22b48308143e6566f747b5a1270bc
 
+# DaxUI & dax-services configs
+system_ext/priv-app/DaxUI/DaxUI.apk
+system_ext/priv-app/daxService/daxService.apk
+system_ext/etc/permissions/privapp-com.dolby.daxappui.xml
+system_ext/etc/permissions/privapp-com.dolby.daxservice.xml
+system_ext/etc/sysconfig/config-com.dolby.daxappui.xml
+system_ext/etc/sysconfig/config-com.dolby.daxservice.xml
+system_ext/etc/sysconfig/hiddenapi-com.dolby.daxservice.xml
+
 # Display - from pstar T1RA33.55-15-16-5 d9def9-6b8134
 vendor/lib64/libdisp-aba.so|41fc61cdc8821ed206f649dd2eb5562b346ade77
 vendor/lib64/libdisplayqos.so|15701f18257c43be5657bbd867a8acf1f469e373
