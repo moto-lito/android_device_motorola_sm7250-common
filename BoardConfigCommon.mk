@@ -93,7 +93,6 @@ TARGET_MODULE_ALIASES += \
 
 # Platform
 BOARD_USES_QCOM_HARDWARE := true
-TARGET_BOARD_PLATFORM := lito
 TARGET_FWK_SUPPORTS_FULL_VALUEADDS := true
 
 # Audio
@@ -122,7 +121,7 @@ DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE := \
     hardware/motorola/vintf/device_framework_matrix.xml \
     hardware/qcom-caf/common/vendor_framework_compatibility_matrix.xml \
     hardware/qcom-caf/common/vendor_framework_compatibility_matrix_legacy.xml \
-    vendor/lineage/config/device_framework_matrix.xml \
+    vendor/yaap/config/device_framework_matrix.xml \
     $(COMMON_PATH)/device_framework_matrix.xml
 DEVICE_MATRIX_FILE := hardware/qcom-caf/common/compatibility_matrix.xml
 DEVICE_MANIFEST_FILE := $(COMMON_PATH)/manifest.xml
@@ -138,8 +137,6 @@ TARGET_HEALTH_CHARGING_CONTROL_SUPPORTS_TOGGLE := true
 TARGET_USES_ION := true
 
 # Partitions
--include vendor/lineage/config/BoardConfigReservedSize.mk
-
 BOARD_USES_METADATA_PARTITION := true
 BOARD_BOOTIMAGE_PARTITION_SIZE := 100663296
 BOARD_RECOVERYIMAGE_PARTITION_SIZE := 104857600
